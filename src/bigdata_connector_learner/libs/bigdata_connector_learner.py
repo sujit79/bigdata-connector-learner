@@ -1,9 +1,6 @@
 import requests
 import json
 import pandas as pd
-from pyspark.sql.functions import udf, col, explode
-from pyspark.sql.types import StructType, StructField, IntegerType, StringType, ArrayType
-from pyspark.sql import Row
 
 headers = {
       'Content-Type': "application/json",
