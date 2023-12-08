@@ -1,1 +1,2 @@
-"""Test suite for sampleproject."""
+
+__version__='0.1.0'
