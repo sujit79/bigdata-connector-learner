@@ -4,8 +4,7 @@ import pandas as pd
 
 headers = {
       'Content-Type': "application/json",
-      'User-Agent': "apache spark 3.x"
-  }
+}
 
 def execute(verb, url, body):
   #
