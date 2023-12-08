@@ -30,9 +30,9 @@ def execute(verb, url, body):
 
 def getDataFrame(verb, url, body):
     result = execute(verb, url, body)
-    pd.read_json(result)
+    df = pd.read_json(result)
 
-    return pd
+    return df
 
     
   
