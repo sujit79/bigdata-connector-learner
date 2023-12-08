@@ -1,5 +1,5 @@
 import sys
-from  bigdata_connector_learner import getDataFrame
+from  bigdata_connector_learner import get_data_frame
 
 def test_main():
     arguments = sys.argv[1:]
@@ -9,5 +9,5 @@ def test_main():
         print("Need Arguments in the following sequence .. verb, url, body")
         sys.exit()
 
-    return getDataFrame(arguments[0], arguments[1], arguments[2])
+    return get_data_frame(arguments[0], arguments[1], arguments[2])
 

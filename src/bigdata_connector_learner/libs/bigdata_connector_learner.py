@@ -24,7 +24,7 @@ def execute(verb, url, body):
   return None
 
 
-def getDataFrame(verb, url, body):
+def get_data_frame(verb, url, body):
     result = execute(verb, url, body)
     df = pd.read_json(result)
 
