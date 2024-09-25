@@ -19,7 +19,7 @@ patsy==0.5.3
 pep8==1.7.1
 ply==3.11
 py4j==0.10.9.7
-pyarrow==11.0.0
+pyarrow==16.1.0
 pycurl==7.45.2
 PyDispatcher==2.0.5
 pyls-spyder==0.4.0
